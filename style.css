@@ -1,0 +1,80 @@
+.navber{
+    background-color: white;
+}
+.code{
+    border: 1px solid #DDDDDD;
+}
+.square{
+   border-bottom: 1px solid #DDDDDD;   
+    display: flex;
+    justify-content: space-between;
+   width: 100%;
+   background-color: #FBFBFB;
+   padding: 7px;
+
+}
+.square .d{
+  padding: 7px;
+border-right: 1px solid #DDDDDD;
+margin-left: 10px;   
+}
+.square .dd{
+    padding: 7px;
+  border-right: 1px solid #DDDDDD;
+  margin-left: 10px;   
+  }
+.console{
+    border: 1px solid #DDDDDD;
+}
+.codemain{
+    border: 1px solid #DDDDDD;
+    border-bottom: none;
+    padding: 0px;
+    background-color: #F7F7F7!important;
+    width: 50%;  
+}
+.consolemain{
+    border: 1px solid #DDDDDD;
+    padding: 0px;
+    border-bottom: none;
+    background-color: #F7F7F7!important;
+    flex: 1;
+}
+.CodeMirror{
+    background-color: #F7F7F7!important;
+    height: 465px!important;
+}
+
+.text{
+    border: none;
+}
+.text:focus{
+    border-color: none;
+    box-shadow: none;
+}
+
+.resizer {
+    background-color: #cbd5e0;
+    cursor: ew-resize;
+    height: 100%;
+    width: 2px;
+}
+.c{
+    display: flex;
+    border: 1px solid #cbd5e0;
+    height: 520px!important;
+    width: 100%;
+}
+
+@media only screen and (max-width:800px) {
+    .codemain{
+        width: 100%!important;
+      }
+    .c{
+      flex-direction: column;
+    }  
+    .abc{
+        margin-top: 8px;
+        margin-bottom: 5px;
+    }
+  }
