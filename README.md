@@ -32,7 +32,7 @@ This is a Online code editor. There is no other specifications for this applicat
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Htetaungkyaw71/Chat-Valley/issues).
+Feel free to check the [issues page](https://github.com/Htetaungkyaw71/Online-IDE/issues).
 
 ## Show your support
 
